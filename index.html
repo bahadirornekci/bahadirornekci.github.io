@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahadir • Digital Card</title>
+
+    <!-- JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1c1e26;
+            font-family: "JetBrains Mono", monospace;
+            color: #e6e6e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #242731;
+            padding: 40px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 480px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            background: #1c1e26;
+            margin: 0 auto 20px auto;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.7;
+            margin-bottom: 24px;
+        }
+
+        .section {
+            text-align: left;
+            margin-bottom: 22px;
+        }
+
+        .section-title {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+            color: #7aa2f7;
+        }
+
+        .socials {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        .socials a {
+            text-decoration: none;
+            color: #e6e6e6;
+            opacity: 0.8;
+            transition: 0.2s;
+        }
+
+        .socials a:hover {
+            opacity: 1;
+            color: #7aa2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="photo"></div>
+
+        <h1>Bahadir</h1>
+        <div class="subtitle">Engineering • Electronics • 3D Design • Software</div>
+
+        <div class="section">
+            <div class="section-title">Passions</div>
+            <ul>
+                <li>High-performance RC design</li>
+                <li>Embedded electronics & IoT</li>
+                <li>Computational design & simulation</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <ul>
+                <li>3D printing + CAD consulting</li>
+                <li>Custom hardware projects</li>
+                <li>Software + automation</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Academics</div>
+            <ul>
+                <li>A-Level Maths, Physics, CS</li>
+                <li>Engineering-focused coursework</li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+            <a href="#">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
